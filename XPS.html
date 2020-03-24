@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XPS 13</title>
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+	<script src="https://kit.fontawesome.com/95b7c25d21.js" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $("input#radio1").click(function(){
+			$("h2#price").text("69,900 Baht");
+			$('input#price-var').val('69,900');
+		  });
+		});
+		$(document).ready(function(){
+		  $("input#radio2").click(function(){
+			$("h2#price").text("72,900 Baht");
+			$('input#price-var').val('72,900');
+		  });
+		});  
+		$(document).ready(function(){
+		  $("input#radio3").click(function(){
+			$("h2#price").text("75,900 Baht");
+			$('input#price-var').val('75,900');
+		  });
+		});  
+	</script>
+  </head>
+  <body class="sub-page" bgcolor="#fff">
+	  <nav class="sticky-top">
+	 <div class="g-nav">
+	  	<ul>
+			<li><span class="nav-toggle" onClick="navToggle()"><i class="fas fa-bars"></i></span></li>
+			<div id="main-nav" class="main-menu">
+				<li><a href="Macbook.html">Macbook</a></li>
+				<li><a href="Surface.html">Surface</a></li>
+				<li><a href="Swift.html">Swift</a></li>
+				<li><a href="XPS.html" class="active">XPS</a></li>
+				<li><a href="ZenBook.html">ZenBook</a></li>
+			</div>
+		</ul>
+	 </div>
+	</nav>
+	<div class="clear-top"></div>
+	<a href="index.html" class="ml-5 fix-resp2">&#x227A; Back</a>
+	<div class="container">
+	  	<div class="m-md-3">
+			<div class="row">
+				<div class="col-md-6 p-lg-4 mx-auto fix-resp">
+					<center><img src="img/Image 6.png" class="mt-4 for-phone" width="90%" alt=""></center>
+					<img src="img/Image 6.png" class="mt-4 for-desktop" width="90%" alt="">
+				</div>
+				<div class="col-md-6 p-lg-4 mx-auto">&nbsp;</div>
+				<div class="col-md-6 p-lg-4 mx-auto cs-mt">
+					<h2>Customize your XPS 13</h2>
+					<p class="showdetail">1.8GHz Intel Core i7-8565U (quad-core, 8MB cache, up to 4.6GHz)</p>
+					<p class="showdetail">16GB 2133MHz DDR3 memory RAM</p>
+					<p class="showdetail">Intel UHD Graphics 620</p>
+					<p class="showdetail">Ultra HD UltraSharp InfinityEdge touch display</p>
+					<p class="showdetail">2 x Thunderbolt 3 (USB-C)</p>
+					<p class="showdetail">1 x USB-C 3.1</p>
+					<p class="showdetail">micro SD card reader</p>
+					<p class="showdetail">headset jack</p>
+					<p class="showdetail">Killer 1435 802.11ac Wi-Fi</p>
+					<br><h2>Storage</h2>
+					<form action="checkout.php" method="post">
+						<input type="hidden" name="image" value="Image 6.png ">
+						<input type="hidden" id="price-var" name="price" value="69,900">
+						<input type="hidden" name="brand" value="XPS 13">
+						<input type="radio" id="radio1" name="radios" value="256GB" checked>
+						   <label for="radio1">256GB SSD Storage</label>
+						<input type="radio" id="radio2" name="radios" value="512GB">
+						   <label for="radio2">512GB SSD Storage</label>
+						<input type="radio" id="radio3" name="radios" value="1TB">
+						   <label for="radio3">1TB SSD Storage</label> 
+					<br>
+					<h2 class="mb-3">Pricing</h2>
+					<h2 id="price">69,900 Baht</h2>
+					<input type="submit" class="btn btn-primary" value="Purchase">
+					</form>
+				</div>
+			</div>
+	  	</div>
+		<footer class="mx-auto">
+			The content, information, opinions, and viewpoints contained in these educational materials are those of the authors or contributors of such materials. While the American Society of Transplantation (AST) and its committees take great care to screen the credentials of the contributors and make every attempt to review the contents, AST MAKES NO WARRANTY, EXPRESSED OR IMPLIED, as to the completeness or accuracy of the content contained in the educational materials or on this website. The reader of these materials uses these materials at his or her own risk, and AST shall not be responsible for any errors, omissions, or inaccuracies in these materials, whether arising through negligence, oversight, or otherwise. Reliance on any information appearing on this site is strictly at your own risk.
+		</footer>
+	</div>
+  </body>
+</html>
