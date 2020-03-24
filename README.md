@@ -4,6 +4,6 @@
                         
 ###########################################################################
 
-                              See web preview at [GitHub Pages](http://ycc.koreanpinkpink.com/)
+                              See web preview at http://ycc.koreanpinkpink.com
 
 ###########################################################################
