@@ -4,6 +4,6 @@
                         
 ###########################################################################
 
-                              See web preview at https://ycc.koreanpinkpink.com
+                              See web preview at http://ycc.koreanpinkpink.com/
 
 ###########################################################################
